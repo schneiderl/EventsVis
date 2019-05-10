@@ -1,7 +1,7 @@
 # *eventsVis*
 A tool for analyzing and visualizing temporal descrete events.
 
-#### This tools allows the user to inspect events in various forms, to see the interactions of events of various types by looking at them temporally, by looking at consecutive patterns and co-occurring patterns and by inspecting the overall duration or count of events througout time. 
+#### This tools allows the user to inspect events in various forms, to see the interactions of events of various types by looking at them temporally, by looking at consecutive patterns and co-occurring patterns and by inspecting the overall duration or count of events throughout time. 
 ##### It also allows simple manipulations of the data such as grouping of adjacent similar events and deciding on co-occurrence and consecutive events thresholds
 
 This tool uses the [shiny framework](https://shiny.rstudio.com/) for visualizing events.
@@ -31,7 +31,7 @@ You can see a live example of the tool on ShinyApps (a bit slow but works):
 In addition, it allows you to group adjacent similar events together (to ignore the effect of multiple events calls that are actually one event in reality).
 
 
-### Events distributions accross sessions:
+### Events distributions across sessions:
 ![Distributions](https://github.com/omri374/eventsVis/raw/master/img/distributions.png)
 
 ### Consecutive events analysis
